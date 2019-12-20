@@ -14,7 +14,7 @@ This website does not require the use of cookies.
 * Contact data (e.g., names, e-mail address). 
 * Meta-/communications data (e.g., device information, IP-address).
 
-## Who is affected
+## Affected Persons
 
 Visitors and users of this website, here after referred to as "users".
     
@@ -34,13 +34,13 @@ This website does not use Google Analytics, or any other tracking services.
 
 This website uses Fonts provided by  Google LLC, 1600 Amphitheatre Parkway, Mountain  View, CA 94043, USA.
 
->Google Privacy Policy: https://www.google.com/policies/privacy/<br>
->Opt-Out: https://adssettings.google.com/authenticated
+* Google Privacy Policy: [https://www.google.com/policies/privacy/]()<br>
+* Opt-Out: [https://adssettings.google.com/authenticated]()
 
 ### Font Awesome
 
 This website uses Font Awesome for displaying icons. 
-> Font Awesome Privacy Policy: https://fontawesome.com/privacy
+* Font Awesome Privacy Policy: [https://fontawesome.com/privacy]()
 
 ### Hosting
 
@@ -55,4 +55,4 @@ The services are required for the efficient and secure provisioning of this webs
 
 This website is hosted by Github using Github Pages. The hoster of this website, Github Pages may collect, store and process usage, meta- and communication data.
 
->Github Global Privacy Policy: https://help.github.com/articles/global-privacy-practices/
+* Github Global Privacy Policy: [https://help.github.com/articles/global-privacy-practices/]()
