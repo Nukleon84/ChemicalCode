@@ -37,9 +37,13 @@ This website uses Fonts provided by  Google LLC, 1600 Amphitheatre Parkway, Moun
 * Google Privacy Policy: [https://www.google.com/policies/privacy/]()<br>
 * Opt-Out: [https://adssettings.google.com/authenticated]()
 
+### MathJax
+
+This website uses MathJax for displaying mathematical equations.
+
 ### Font Awesome
 
-This website uses Font Awesome for displaying icons. 
+This website uses Font Awesome for displaying icons. Font Awesome is hosted inside the Github Repository.
 * Font Awesome Privacy Policy: [https://fontawesome.com/privacy]()
 
 ### Hosting
