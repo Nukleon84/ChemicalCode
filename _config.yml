@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Chemical Code'
-description:	       'a blog about process simulation and programming'
+description:	       'a blog about simulation and programming'
 author:              'Jochen Steimel'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
