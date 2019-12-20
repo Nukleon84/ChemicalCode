@@ -13,7 +13,7 @@ It begins here. An empty Markdown file ready to be filled with my ramblings abou
 
 ## An introduction
 
-Allow me to introduce myself shorty. My name is Jochen and I am a chemical engineer from Germany. After graduating from the TU Dortmund Technical University, I started my professional career at Covestro, a global player in the perfomance polymer market. Currently I am developing the process simulation landscape at Covestro and maintain the inhouse simulator VtPlan.
+Allow me to introduce myself shortly. My name is Jochen and I am a chemical engineer from Germany. After graduating from the TU Dortmund Technical University, I started my professional career at Covestro, a global player in the perfomance polymer market. Currently I am developing the process simulation landscape at Covestro and maintain the inhouse simulator VtPlan.
 
 My passion is computer-aided process engineering, a topic that fascinates me since I started my diploma thesis in 2010. I developed simulation software at the university and continue to do so ever since, both privately and professionaly. I am a big fan of clean-code and try to continuously improve in that regard.
 
