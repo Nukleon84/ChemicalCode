@@ -39,7 +39,11 @@ But what happens then? When the software reaches the mainstream market, it will 
 
 # What about future-gen?
 So, with the next-gen label being free again, what features could possibly fill that void? Allow me to make some conjectures about desirable features of the process simulation software of the future.
-To be truthful, one most admit that the chemical industry is not very advanced in digital topics. We have largely profited from past successes, when process simulation became one of the success stories of computerization. Most modern advances in technology never reached the process technology departments and are just now pushing into the operational technology (OT) world.
+To be truthful, one most admit that the chemical industry is not very advanced in digital topics. We have largely profited from past successes, when process simulation became one of the success stories of computerization. Most modern advances in technology never reached the process technology departments and are just now pushing into the operational technology (OT) world. 
+
+Sometimes I feel that computer-aided process engineering took the easy, downhill route in the last 15 years, and did not push enough for innovation to be transferred from academia to the industry. We were content with the tools we had and followed along. Are we currently facing the discontinuity mentioned in the (slightly tongue-in-cheek) image below?
+
+![An easy road, for a while](https://nukleon84.github.io/ChemicalCode/assets/img/Article2_Optimization.png)
 
 In order to guess what the future-gen looks like for process simulation, one can look at the current-generation of software products in other industries, in this case the internet technologies.
 With the advent of cloud technology, a profound change in thought ripped apart the old structures of data centers and server farms. Software engineers developed technologies to increase re-usability and composability of software, and modern work processes like agile development and Continuous Integration/Continuous Development (CI/CD) reached maturity and the mainstream market. Let’s take the current state of the internet technology as a model for the future CAPE systems.
