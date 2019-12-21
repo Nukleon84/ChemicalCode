@@ -4,7 +4,7 @@ title: "Welcome to Chemical Code!"
 author: "Jochen Steimel"
 categories: journal
 tags: [general]
-image: cards.jpg
+image: ChemicalCode_Welcome.png
 ---
 
 
