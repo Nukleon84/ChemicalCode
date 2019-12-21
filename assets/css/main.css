@@ -438,6 +438,8 @@ th, td {
   padding-right: 10px;
 }
 
+.fa { font-family: 'FontAwesome' !important; }
+
 .fa-envelope {
   padding: 5px;
 	-o-transition:.5s;
