@@ -21,7 +21,7 @@ My passion is computer-aided process engineering, a topic that fascinates me sin
 
 So what do I want to achieve with this project? First, I want to improve my communication about my ongoing projects, so that I can more easily share finding and results from my personal research. Secondly I want to have a place where I can post my opinions on technical topics like digitalization, Industry 4.0, digital enablement and new work.
 
-![Communication](../assets/img/Communications.png)
+![Communication](/assets/img/Communication.png)
 
 
 ## My current projects
