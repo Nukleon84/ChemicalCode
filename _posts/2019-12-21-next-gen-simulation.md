@@ -3,7 +3,7 @@ layout: post
 title: "When Next-Gen becomes Current-Gen, what becomes Next-Gen?"
 author: "Jochen Steimel"
 categories: journal
-tags: [general]
+tags: [general, cape]
 image: Article2_WheelOfTime.png
 ---
 
@@ -39,10 +39,11 @@ But what happens then? When the software reaches the mainstream market, it will 
 
 # What about future-gen?
 So, with the next-gen label being free again, what features could possibly fill that void? Allow me to make some conjectures about desirable features of the process simulation software of the future.
-To be truthful, one most admit that the chemical industry is not very advanced in digital topics. We have largely profited from past successes, as process simulation became one of the success stories of computerization.
+To be truthful, one most admit that the chemical industry is not very advanced in digital topics. We have largely profited from past successes, when process simulation became one of the success stories of computerization. Most modern advances in technology never reached the process technology departments and are just now pushing into the operational technology (OT) world.
 
 In order to guess what the future-gen looks like for process simulation, one can look at the current-generation of software products in other industries, in this case the internet technologies.
 With the advent of cloud technology, a profound change in thought ripped apart the old structures of data centers and server farms. Software engineers developed technologies to increase re-usability and composability of software, and modern work processes like agile development and Continuous Integration/Continuous Development (CI/CD) reached maturity and the mainstream market. Let’s take the current state of the internet technology as a model for the future CAPE systems.
+
 In the following I will detail a few of those points that seem to be the most important for me.
 
 ## Service-orientation
@@ -80,7 +81,7 @@ To facilitate interoperability between the tools and use-cases an open standard 
 # Summary
 In my opinion, the industry must come together to formalize open standards for communication. It already began in certain areas (e.g. [DEXPI](https://dexpi.org/) for CAE application, or the ill-fated [CAPE Open Initiative] ( http://www.colan.org/)). But before we have an internationally accepted interchange format for flowsheet modeling, connectivity and configuration a lot more work has to be put in by both the vendors and the chemical industry. 
 
-Automation (and in turn deployed applications) are gaining more and more importance. We will see an increase in the number of plant-level simulation applications in the coming years, as the chemical industry needs to tackle equipment maintenance and process performance issues. Without automation and communication this domain will not flourish, as the applications would be limited to what the vendors can (or choose to) offer.
+Automation and deployed applications are gaining more and more importance. We will see an increase in the number of plant-level simulation applications in the coming years, as the chemical industry needs to tackle equipment maintenance and process performance challenges. Without automation and open communication this problem domain will not flourish, as the applications would be limited to what the vendors can (or choose to) offer.
 
 **tl;dr:** Next-generation process simulation tools coming to the market in the 2020ies must consider current technological standards, like scalability (cloud), open communication (HTTP&REST), platform independence and novel licensing structures to enable engineers to solve the problems of the future.
 
