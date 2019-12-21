@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Privacy Policy
+title: Privacy & Data Protection Policy
 ---
 
-# Data Protection Policy (GDPR)
+This website processes a minimum of Personally Identifiable Information (PII) required for the operation of the website. I have no interest in gathering information about my visitors or marketing those information for any reason. 
 
-This website processes a minimum of Personally Identifiable Information (PII) required for the operation of the website.
+Every user has the right to know why and how data about their visited is processed by this website. I hold data privacy as important and accordingly reduced the  website as much as possible. Nonetheless a minimum of data processing is necessary to make a website such as this work. 
 
 This website does not require the use of cookies. 
 
