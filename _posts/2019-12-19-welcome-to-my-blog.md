@@ -21,6 +21,9 @@ My passion is computer-aided process engineering, a topic that fascinates me sin
 
 So what do I want to achieve with this project? First, I want to improve my communication about my ongoing projects, so that I can more easily share finding and results from my personal research. Secondly I want to have a place where I can post my opinions on technical topics like digitalization, Industry 4.0, digital enablement and new work.
 
+![Communication](/assets/img/Communications.png)
+
+
 ## My current projects
 
 While I cannot talk much about professional projects, I still have a bit of free time to do some development and research in the evening. Currently I am developing a new, minimalistic process simulation library in .net called MiniSim on [Github](https://github.com/Nukleon84/MiniSim). The idea is to have a lightweight process simulator that can be embedded into other hosting enviroments to create ad-hoc CAPE applications.
