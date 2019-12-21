@@ -23,6 +23,11 @@ So what do I want to achieve with this project? First, I want to improve my comm
 
 ![Communication](https://nukleon84.github.io/ChemicalCode/assets/img/Communication.png)
 
+I chose Github Pages as a hosting solution for the following reasons:
+1) I don't want my articles to be behind a paywall or smudged by ads.
+2) I don't want to collect data or store user data.
+3) I like open-source and the idea of openly sharing technical details to improve reproducability.
+4) Minimalistic static websites are simple to maintain and modify, no dependencies, no hidden services.
 
 ## My current projects
 
