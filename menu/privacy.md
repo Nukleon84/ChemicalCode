@@ -32,19 +32,15 @@ This website does not use Google Analytics, or any other tracking services.
 
 ### Google Fonts
 
-This website uses Fonts provided by  Google LLC, 1600 Amphitheatre Parkway, Mountain  View, CA 94043, USA.
-
-* Google Privacy Policy: [https://www.google.com/policies/privacy/]()<br>
-* Opt-Out: [https://adssettings.google.com/authenticated]()
+This website uses Fonts provided by  Google LLC, 1600 Amphitheatre Parkway, Mountain  View, CA 94043, USA. All Fonts are hosted inside the Github Repository of this Website. No requests for downloading fonts are sent to Google servers when visiting this site.
 
 ### MathJax
 
-This website uses MathJax for displaying mathematical equations.
+This website uses MathJax for displaying mathematical equations. MathJax is hosted inside the Github Repository of this Website.  No requests for downloading fonts are sent to other servers when visiting this site.
 
 ### Font Awesome
 
-This website uses Font Awesome for displaying icons. Font Awesome is hosted inside the Github Repository.
-* Font Awesome Privacy Policy: [https://fontawesome.com/privacy]()
+This website uses Font Awesome for displaying icons. Font Awesome is hosted inside the Github Repository of this Website.  No requests for downloading fonts are sent to other servers when visiting this site.
 
 ### Hosting
 
@@ -59,4 +55,4 @@ The services are required for the efficient and secure provisioning of this webs
 
 This website is hosted by Github using Github Pages. The hoster of this website, Github Pages may collect, store and process usage, meta- and communication data.
 
-* Github Global Privacy Policy: [https://help.github.com/articles/global-privacy-practices/]()
+Github Global Privacy Policy: [https://help.github.com/articles/global-privacy-practices/]()
