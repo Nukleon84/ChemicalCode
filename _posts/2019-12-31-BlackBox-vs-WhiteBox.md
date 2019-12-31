@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Black-Box vs White-Box : Differences & similarities"
+author: "Jochen Steimel"
+categories: journal
+tags: [machinelearning numerics]
+image: Article3_Title.png
+---
+
 What I find puzzling at times is the ambivalence that process engineers exhibit towards data-driven approaches. On the one hand, use of data is accepted if it's for regressing First-Principle models (models build on the basic assumptions of the conservation of mass and energy.) On the other hand, if we use the same data to train Black-Box models, we get skeptical faces and great doubt: Will this model be accurate enough? How much can I trust this model’s predictions? I don't understand whats going on inside that Black-Box!
 
 In this article I would like to share my view on this topic, and how I see both approaches as being two sides of the very same coin.
