@@ -30,7 +30,7 @@ From a conceptual point of view I see a lot of similarities between Neurons and 
 The major difference lies in the complexity of function evaluation: whereas functions in Neural Networks are nearly always explicit elementary functions, Unit Operation nearly always require an iterative solve procedure before the corresponding outputs can be determined for a given set of inputs. This difference will lead to a drastic increase in calculation time and will furthermore decrease stability of the algorithm, as the iterative procedures may sometimes fail.
 
 ## The Genotype
-At this point we are ready to start our modeling endeavor. To test out the idea of a generic process model that is later translated into a "real" flowsheet, we start with a very simple Python dictionary.
+At this point we are ready to start our modeling endeavor. To test out the idea of a generic process model that is later translated into a "real" flowsheet, we start with a very simple Python dictionary. I will not deal with any mutation or cross-over but instead fill a data structure manually for testing. 
 
 The genotype consists of:
 
@@ -39,13 +39,13 @@ The genotype consists of:
 * A list of Unit Genes
 * A list of Stream Genes
 
-The UnitGene consists of a class identifier that is used to create UnitOperation instances later, as well as the parameters needed to make the model specification square. We will rely only on the evolutionary search to optimize our process and thus have to make sure that the flowsheet is fully specified. In this example, the thermodynamics system consists of three components, Benzene, Toluene and p-Xylene, which are relabled as component A, B and C respectively.
+The UnitGene consists of a class identifier that is used to create *UnitOperation* instances later, as well as the parameters needed to make the model specification square. We will rely only on the evolutionary search to optimize our process and thus have to make sure that the flowsheet is fully specified. In this example, the thermodynamics system consists of three components, Benzene, Toluene and p-Xylene, which are relabled as component A, B and C respectively. This way, I can easily change the system to any other ternary system and do not need to change the models.
 
 Each unit will have a field called *IsMandatory*, to tell the mutation operator that such a unit **must** exist in a flowsheet and cannot be removed. This is neccessary to guarantee that we will always have a feed, an idea that is taken from the work of [Thibaut Neveux](https://www.sciencedirect.com/science/article/pii/S0009250918302136). 
 
 The *MaterialStream* genome-model is very simple and consists only of a name for the stream, the source unit and port, and the sink unit and port. Splitters and mixers will be modeled explicitly with Unit Operation nodes and not with different weightes streams. 
 
-For the start I will model a small flowsheet consisting of two flashes and a condenser to test out the idea. The process task is defined by the composition of the mandatory feed stream: a mixture 30, 30, 40 mol-% Benzene, Toluene, Xylene needs to separated. If we would like to change the task, we would need to only change the definition of the Thermodynamic System and this feed stream.
+For the start I will model a small flowsheet consisting of two flashes and a condenser to test out the idea. The process task is defined by the composition of the mandatory feed stream: a mixture 30/30/40 mol-% Benzene, Toluene, Xylene needs to separated. 
 
 ```python
 genotype={
@@ -147,8 +147,8 @@ Luckily a lot of research went into the topic of flowsheet tearing and sequencin
 
 You may have noted that I only used flashes and heaters in the example. While it is of course possible to solve distillation columns with MiniSim, I haven't found a convincing way of including them in the genome. Currently I am pondering two options, but cannot decide which one I should pursue further.
 
-* If I model them only as simple distillation with a single feed and two product streams, startup will be easier, but I lose a lot of potential solutions (heat-integrated columns, dividing wall setups, absorbers or stripping columns).
-* If I model them as adiabatic sections, I need to add additional sources for the boilup and liquid reflux. How to initialize those streams still is an open question to me.
+* **Option A:** If I model them only as simple distillation with a single feed and two product streams, startup will be easier, but I lose a lot of potential solutions (heat-integrated columns, dividing wall setups, absorbers or stripping columns).
+* **Option B:**If I model them as adiabatic sections, I need to add additional sources for the boilup and liquid reflux. How to initialize those streams still is an open question to me.
 
 ![ColumnStructures](https://nukleon84.github.io/ChemicalCode/assets/img/Article6_ColumnStructures.png)
 
