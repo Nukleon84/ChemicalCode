@@ -3,7 +3,7 @@ layout: post
 title: "Evolution of flowsheet topologies - Part 1: Introduction and Overview"
 author: "Jochen Steimel"
 categories: journal
-tags: [evolutionayalgorithm neat processsynthesis]
+tags: [evolutionyalgorithm neat processsynthesis]
 image: Article5_Title.png
 ---
 

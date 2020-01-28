@@ -3,7 +3,7 @@ layout: post
 title: "Evolution of flowsheet topologies - Part 2: Genotype and Phenotype Mapping"
 author: "Jochen Steimel"
 categories: journal
-tags: [evolutionayalgorithm neat processsynthesis]
+tags: [evolutionyalgorithm neat processsynthesis]
 image: Article6_Title.png
 ---
 
