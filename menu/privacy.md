@@ -75,7 +75,7 @@ Our privacy policy is structured as follows:
 The party responsible for this website (the "controller") for purposes of data protection law is:
 
 > Jochen Steimel<br>
-> Von-Nesselrode-Straße 23<br>
+> Haus Gravener Straße 66<br>
 > 40764 Langenfeld (Rheinland)<br>
 > GERMANY
 >
