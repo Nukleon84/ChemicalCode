@@ -18,7 +18,7 @@ This blog thus solely expresses my private, personal opinions and is not represe
 (Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV)
 
 > Jochen Steimel<br>
-> Von-Nesselrode-Straße 23<br>
+> Haus Gravener Straße 66<br>
 > 40764 Langenfeld (Rheinland)<br>
 > GERMANY
 
