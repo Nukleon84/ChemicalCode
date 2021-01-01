@@ -35,30 +35,30 @@ This is a code extract from the draw-method of the Vessel class.
 
 ```python
 if self.internals and self.internals.lower() == "tubes":
-            for i in range(1, 5):
-                x = self.position[0] + self.size[0] / 5 * i
-                start = (x, self.position[1] + capLength)
-                end = (x, self.position[1] + self.size[1] - capLength)
-                ctx.line(start, end, self.lineColor, self.lineSize)
+    for i in range(1, 5):
+        x = self.position[0] + self.size[0] / 5 * i
+        start = (x, self.position[1] + capLength)
+        end = (x, self.position[1] + self.size[1] - capLength)
+        ctx.line(start, end, self.lineColor, self.lineSize)
 
-        if self.internals and self.internals.lower() == "bed":
-            start = (self.position[0], self.position[1] + capLength)
-            end = (
-                self.position[0] + self.size[0],
-                self.position[1] + self.size[1] - capLength,
-            )
-            ctx.line(start, end, self.lineColor, self.lineSize)
+if self.internals and self.internals.lower() == "bed":
+    start = (self.position[0], self.position[1] + capLength)
+    end = (
+        self.position[0] + self.size[0],
+        self.position[1] + self.size[1] - capLength,
+    )
+    ctx.line(start, end, self.lineColor, self.lineSize)
 
-            start = (self.position[0] + self.size[0], self.position[1] + capLength)
-            end = (self.position[0], self.position[1] + self.size[1] - capLength)
-            ctx.line(start, end, self.lineColor, self.lineSize)
+    start = (self.position[0] + self.size[0], self.position[1] + capLength)
+    end = (self.position[0], self.position[1] + self.size[1] - capLength)
+    ctx.line(start, end, self.lineColor, self.lineSize)
 ```
 ## Violations of the principles of Clean Code
 The current design around unit internals violates several principles of SOLID code:
-* Single Responsibility-Principle: The draw-method unit operation class (and its derived subclasses) is responsible, not only for drawing the unit symbol itself, but also all variations of internals.
-* Open-Closed-Principle: Currently, there is no way to add new internals to a unit without changing the source-code of the draw-method. This is bad, because it does not allow the user to quickly add new functionality to the library but requires the package maintainer to add all the internals.
-* Interface segregation-principle: To allow access to the graphical properties of the internals, they need to be added to the public interface (or contract) of the unit operation class. This will, over time, lead to this class getting more bloated and turn into the feared “god class” of the system, a huge blob that contains all possible fields and data structures, and is impossible to maintain or change.
-* In addition, it also violates an even more basal rule of clean-code: DRY (Don’t repeat yourself). In the current version of the code, the code fragments for drawing beds are repeated in the vessel and the column class, and will creep into any other related class that should have an X drawn on top of the basic shape.
+* Single Responsibility-Principle (SRP): The draw-method unit operation class (and its derived subclasses) is responsible, not only for drawing the unit symbol itself, but also all variations of internals.
+* Open-Closed-Principle (OCP): Currently, there is no way to add new internals to a unit without changing the source-code of the draw-method. This is bad, because it does not allow the user to quickly add new functionality to the library but requires the package maintainer to add all the internals.
+* Interface-Segregation-Principle (ISP): To allow access to the graphical properties of the internals, they need to be added to the public interface (or contract) of the unit operation class. This will, over time, lead to this class getting more bloated and turn into the feared “god class” of the system, a huge blob that contains all possible fields and data structures, and is impossible to maintain or change.
+* In addition, it also violates an even more basal rule of clean-code: Don’t repeat yourself (DRY). In the current version of the code, the code fragments for drawing beds are repeated in the vessel and the column class, and will creep into any other related class that should have an X drawn on top of the basic shape.
 * Last but not least, the current design runs into the problem of combinatorial explosion. Take for example a simple reactor. It could have internal or external heating coils. It could have an internal mixer. In the current design, that would already necessitate four strings (“internalcoil”, “externalcoil”, “internalcoil-mixer”, “externalcoil-mixer”) to cover the possible combinations. And it only gets worse from here.
 
 ## How to improve the code?
@@ -85,7 +85,7 @@ Instead of having a series of if-conditions that test what should be drawn on th
 For example, a vessel instance would in future be created with the following function call:
 
 ```python
-Vessel("U10","Horizontal Vessel (with tubes)", position=(200,300), size=(80,40),internals=[TubesInternals] )
+Vessel("U10","Vessel (with tubes)", position=(200,300), size=(80,40),internals=[TubesInternals] )
 ```
 
 Notice the list literal at the end: this will allow the user to *stack* different internals onto each other to create combinations unforeseen by the library developer. In addition, users can create new derived classes from the BaseInternal class and implement their own drawing logic for icons not supported by the pyflowsheet package.
