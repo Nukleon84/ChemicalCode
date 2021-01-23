@@ -9,7 +9,7 @@ image: TheWorldWasGrey_Title.png
 
 ## Introduction
 
-Roughly a year ago, I wrote a rather technical [article](https://nukleon84.github.io/ChemicalCode/journal/BlackBox-vs-WhiteBox.html) about black-box vs. white-box models in process simulation which ended on the notion that process simulators should start including machine-learning models in the repertoire of tools. In this article I expand on the idea and talk about some practical examples.
+Roughly a year ago, I wrote a rather technical [article](https://nukleon84.github.io/ChemicalCode/journal/BlackBox-vs-WhiteBox.html) about black-box vs. white-box models in process simulation which ended on the notion that process simulators should start including machine-learning models in their repertoire of tools. In this article I expand on the idea and talk about some practical examples.
 
 Time for a hot-take! Quite often I get the response from experienced process simulation users (preferably those that experienced the AI-winter of the 90ies) that all this newfangled machine-learning nonsense has been tried in the past and never worked and probably never will. And that we (the young engineers) should just stick to first-principle modeling and simulation instead of wasting our time.
 
@@ -33,9 +33,9 @@ And I am wondering know: can we get better models when we allow ourselves to use
 Of course, the most obvious use of machine learning methods in process simulation is for predicting properties for which no physical model exists at all, for example:
 * correlating the color of the product with production/recipe parameters, 
 * correlating the rate of fouling in a heat exchanger to the current operating/design parameters based on a learned representation of live production data,
-* correlating the rate of catalyst deactivation as a function of process conditions to optimize the runtime of a reactor.
+* correlating the rate of catalyst deactivation (from historic data) as a function of process conditions to optimize the runtime of a reactor.
 
-In all of these cases the rigorous process simulation model is enhanced with a data-driven model trained from production data. Interestingly the machine-learning model is not used directly in the production environment for process control purposes or KPI prediction. Instead it is used in the process simulation department with the intent to improve the process itself and not the implementation of the process (the chemical plant). Here instance-specific data (taken from production units) is used to improve the abstract, virtual process.
+In all of these cases the rigorous process simulation model is enhanced with a data-driven model trained from production data. Interestingly the machine-learning model is not used directly in the production environment for process control purposes or KPI prediction. Instead, it is used in the process simulation department with the intent to improve the process itself and not the implementation of the process (the chemical plant). Here instance-specific data (taken from production units) is used to improve the abstract, virtual process.
 
 ## Conclusion
 While we may have seen a time of AI-disillusionment mainly caused by inflated expectations and limited computational power (at the time), the time is now ripe to bring process simulation to the next level. Successes in other industries put the pressure on the process industry to catch up and innovate one of it's core disciplines: process simulation.

@@ -6,7 +6,6 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github', link: 'https://www.github.com/nukleon84'}
-- {icon: 'twitter', link: 'https://twitter.com/nukleon14'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/jochen-steimel'}
 - {icon: 'rss-square', link: '/feed.xml'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}
