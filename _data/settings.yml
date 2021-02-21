@@ -1,6 +1,7 @@
 menu:
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
-- {name: 'Impressum / Legal Notice', path: 'menu', url: 'impressum.html'}
+- {name: 'Resume', path: 'menu', url: 'contact.html'}
+- {name: 'Portfolio', path: 'menu', url: 'portfolio.html'}
+- {name: 'Impressum', path: 'menu', url: 'impressum.html'}
 - {name: 'Privacy', path: 'menu', url: 'privacy.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
