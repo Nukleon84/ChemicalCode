@@ -24,7 +24,30 @@ My core competencies are:
 
 ## Experience
 
-*2015 - ongoing*
+*2022 - ongoing*
+
+### Simulation Platform Product Owner & Architect / AVEVA GmbH
+
+At AVEVA I am responsible for the management of the backlog of our next-generation process simulation tool and create architectural design studies to help define the architecture roadmap. As architect I am part of the leadership team and I have been working together with the agile coach / scrum master to improve the way we work together.
+
+Highlight projects:
+
+* Design of a model library for modeling municipal wastewater treatment plants
+* Design of a model library for rigorous heat exchangers using the cell method as described in the VDI Heat Atlas
+* Design of the case study feature
+* Design of an adapter for machine-learning models using the ONNX runtime
+* Contributing to the DEXPI Process special interest group with the DEXPI initiative
+* Continuous improvements of the agile process
+* Critical tertiary customer support and troubleshooting of large flowsheet simulation models with a focus on numeric stability
+
+  
+Technical Skills:
+
+* Project management with Azure Dev-Ops
+* Maintaining and building complex projects in Visual Studio
+* Thermodynamic programming in C++
+
+*2015 - 2022*
 
 ### Expert Process Simulation Software / Covestro Deutschland AG
 
